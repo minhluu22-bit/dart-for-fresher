@@ -6,8 +6,9 @@ void main(List<String> args) {
   bool isRunning = true;
   while (isRunning) {
     stdout.write("Enter an expense: ");
-    int expense = int.parse(stdin.readLineSync()!);
-    total += expense;
+    int expenses = int.parse(stdin.readLineSync()!);
+    total += expenses;
+    expense.add(expenses);
     stdout.write("Do you want to enter another expense? (y/n): ");
     String choice = stdin.readLineSync()!;
     if (choice == "n") {
