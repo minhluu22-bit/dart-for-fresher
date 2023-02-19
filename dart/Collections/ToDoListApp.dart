@@ -21,7 +21,8 @@ void main(List<String> args) {
         String item = stdin.readLineSync()!;
         toDoList.add(item);
         print("work \"$item\" added to your list.");
-        print("You should check it out. You have ${toDoList.length} work(s) to do.");
+        print(
+            "You should check it out. You have ${toDoList.length} work(s) to do.");
         break;
       case 2:
         print('Awww, you done some work? Let me help you remove it.');
@@ -38,8 +39,13 @@ void main(List<String> args) {
         } else if (chose == 2) {
           stdout.write('Enter the item to remove: ');
           String item1 = stdin.readLineSync()!;
-          print("work \"$item1\" removed from your list.");
-          toDoList.remove(item1);
+          if (!toDoList.contains(item1)) {
+            print('May be you should check your list again.');
+            break;
+          } else {
+            print("work \"$item1\" removed from your list.");
+            toDoList.remove(item1);
+          }
         } else {
           print('Invalid choice');
         }
