@@ -32,12 +32,12 @@ void main(List<String> args) {
         stdout.write('Your choice is: ');
         int chose = int.parse(stdin.readLineSync()!);
         if (chose == 1) {
-          print('Enter the index of the item to remove: ');
+          stdout.write('Enter the index of the item to remove: ');
           int index = int.parse(stdin.readLineSync()!);
           print("work \"${toDoList[index - 1]}\" removed from your list.");
           toDoList.removeAt(index - 1);
         } else if (chose == 2) {
-          print('Enter the item to remove: ');
+          stdout.write('Enter the item to remove: ');
           String item1 = stdin.readLineSync()!;
           print("work \"$item1\" removed from your list.");
           toDoList.remove(item1);
