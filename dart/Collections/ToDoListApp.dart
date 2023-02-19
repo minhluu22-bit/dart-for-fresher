@@ -7,28 +7,62 @@ void main(List<String> args) {
   bool isRunning = true;
   List<String> toDoList = [];
   while (isRunning) {
-    stdout.write('What would you like to do? (add, remove, print, quit): ');
-    String? input = stdin.readLineSync();
-    if (input == 'add') {
-      stdout.write('What would you like to add to the list? ');
-      String? item = stdin.readLineSync();
-      toDoList.add(item!);
-      print('Added $item to the list.');
-    } else if (input == 'remove') {
-      stdout.write('What would you like to remove from the list? ');
-      String? item = stdin.readLineSync();
-      toDoList.remove(item!);
-      print('Removed $item from the list.');
-    } else if (input == 'print') {
-      print('Here is your ToDo List:');
-      for (int i = 0; i < toDoList.length; i++) {
-        print('${i + 1}. ${toDoList[i]}');
-      }
-    } else if (input == 'quit') {
-      print('Thanks for using the ToDo List App, $name.');
-      isRunning = false;
-    } else {
-      print('Invalid input. Please try again.');
+    stdout.write('What would you like to do?: \n');
+    print('1: add');
+    print('2: remove');
+    print('3: print your list');
+    print('4: exit');
+    stdout.write('Your choice is: ');
+    int choice = int.parse(stdin.readLineSync()!);
+    switch (choice) {
+      case 1:
+        print("You want to add something to your list? Let's do it.");
+        stdout.write('Enter the work you want to add: ');
+        String item = stdin.readLineSync()!;
+        toDoList.add(item);
+        print("work \"$item\" added to your list.");
+        print(
+            "You should check it out. You have ${toDoList.length} work(s) to do.");
+        break;
+      case 2:
+        print('Awww, you done some work? Let me help you remove it.');
+        print('You can choose to remove by index or by item.');
+        print('1: remove by index');
+        print('2: remove by item');
+        stdout.write('Your choice is: ');
+        int chose = int.parse(stdin.readLineSync()!);
+        if (chose == 1) {
+          print('Enter the index of the item to remove: ');
+          int index = int.parse(stdin.readLineSync()!);
+          print("work \"${toDoList[index - 1]}\" removed from your list.");
+          toDoList.removeAt(index - 1);
+        } else if (chose == 2) {
+          print('Enter the item to remove: ');
+          String item1 = stdin.readLineSync()!;
+          print("work \"$item1\" removed from your list.");
+          toDoList.remove(item1);
+        } else {
+          print('Invalid choice');
+        }
+        print("Awesome! You have finished some work. You should check it out.");
+        break;
+      case 3:
+        if (toDoList.isEmpty) {
+          print('Your ToDo List is empty. Maybe you should add some work?');
+        } else {
+          print('Your ToDo List is:');
+          for (String item in toDoList) {
+            print(item);
+          }
+        }
+        break;
+      case 4:
+        print("You want to exit? That's sad. I hope you have a good day.");
+        print('Goodbye $name');
+        isRunning = false;
+        break;
+      default:
+        print('Invalid choice, try again');
     }
   }
 }
