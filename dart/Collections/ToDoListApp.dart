@@ -21,8 +21,7 @@ void main(List<String> args) {
         String item = stdin.readLineSync()!;
         toDoList.add(item);
         print("work \"$item\" added to your list.");
-        print(
-            "You should check it out. You have ${toDoList.length} work(s) to do.");
+        print("You should check it out. You have ${toDoList.length} work(s) to do.");
         break;
       case 2:
         print('Awww, you done some work? Let me help you remove it.');
