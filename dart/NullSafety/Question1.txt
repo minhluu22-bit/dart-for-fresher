@@ -1,0 +1,9 @@
+? after the variable used to declaring a nullable variable
+Like:
+
+    String a;
+    print(a); // Errr. Some Error // The non-nullable local variable 'a' must be assigned before it can be used.
+
+    or 
+    String? a;
+    print(a); // print null
