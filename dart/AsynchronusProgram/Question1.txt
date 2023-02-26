@@ -1,0 +1,42 @@
+Asynchronous Programming is a way of writing code that allows a program to do multiple things at the same time. Time consuming operations like fetching data from the internet, writing to a database, reading from a file, and downloading a file can be performed without blocking the main thread of execution.
+//vietsub
+Lập trình bất đồng bộ (Asynchronous Programming) là một cách viết mã cho phép một chương trình thực hiện nhiều việc cùng một lúc. Các hoạt động tốn thời gian như truy xuất dữ liệu từ internet, ghi vào cơ sở dữ liệu, đọc từ một tệp, và tải xuống một tệp có thể được thực hiện mà không cần chặn luồng chính của thực thi.
+Nói thêm về Asynchronous và Synchronous Programming:
+    Trong Synchronous Programming: Khi một hàm được gọi, nó sẽ chạy đến khi nó hoàn thành, sau đó nó sẽ trả về kết quả và chương trình sẽ tiếp tục chạy. Tức là có n công việc, mỗi công việc của nó sẽ tốn thời gian Ti nào đó. Vậy sau khi chạy xong chương trình
+    tổng thời gian là T = T1 + T2 + ... + Tn => tốn nhiều thời gian để hoàn thành chương trình.
+
+    Với Asynchronous Programming: Khi một hàm được gọi, nó sẽ chạy đến khi nó hoàn thành, sau đó nó sẽ trả về kết quả và chương trình sẽ tiếp tục chạy. Tức là có n công việc, mỗi công việc của nó sẽ tốn thời gian Ti nào đó. Vậy sau khi chạy xong chương trình
+    tổng thời gian là T = max(T1, T2, ... , Tn) => tốn ít thời gian để hoàn thành chương trình.
+
+    Ví dụ:
+    Synchronous Programming:
+    void doSomething() {
+        print('doSomething');
+    }
+    void doSomethingElse() {
+        print('doSomethingElse');
+    }
+    void doAll() {
+        doSomething();
+        doSomethingElse();
+    }
+
+    doAll();
+
+    Asynchronous Programming:
+    import 'dart:io'
+    void doSomething() {
+        print('doSomething');
+    }
+    void doSomethingElse() {
+        print('doSomethingElse');
+    }
+    void doAll() {
+        doSomething();
+        doSomethingElse();
+    }
+    
+    sleep(Duration(seconds: 1));
+    doAll();
+
+    

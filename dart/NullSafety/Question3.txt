@@ -1,0 +1,2 @@
+Ok, So if you want declare a null-safety variable in dart, you just put '?' after the variable type:
+    Like: String? str; // null-safety variable name str have String type
