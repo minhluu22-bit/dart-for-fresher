@@ -5,4 +5,8 @@ In dart, the Future represents a value that is not yet available. It is used to 
 Ở trong dart programming, keywork Future biểu thị 1 giá trị chưa có sẵn. Nó được sử dụng để biểu thị 1 giá trị hoặc lỗi có thể xảy ra trong tương lai.
 
 Ví dụ:
-    
+    var future = Future<int>.delayed(
+  Duration(seconds: 1), 
+  () => 2
+); // biến future thuộc kiểu Future<int>
+    future.then((value) => print(value)); // 2
