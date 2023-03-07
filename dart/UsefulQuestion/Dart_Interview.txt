@@ -1,0 +1,16 @@
+// it used to be use for interview but i will do this for confess. So yep, you can see all my thought about Dart and C relate programming language. So have fun and enjoy it. :D
+// i think it should call Dart_Confession not Dart_Interview, but i don't want to change it, so yep, i will keep it like this. :D
+Question 1: What is Dart? (Dart là gì?)
+    Dart is a programming language that is developed by Google. It is a client-optimized language for fast apps on any platform. Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript.
+    (Dart là ngôn ngữ lập trình do Google phát triển. Nó là một ngôn ngữ tối ưu cho khách hàng để tạo ra các ứng dụng nhanh trên bất kỳ nền tảng nào. Dart là một ngôn ngữ có hướng đối tượng, dựa trên lớp, thu thập rác với cú pháp C. Dart có thể biên dịch thành mã máy hoặc JavaScript.)
+
+Question 2: What inspired you to pursue a career in dart programming? (Điều gì thôi thúc bạn theo đổi sự nghiệp trong lập trình Dart?)
+    First of all, smartphone is so popular that everyone have a smartphone in their pocket, and Dart is a one of programming language that can be used to develop smartphone application. Secondly, i love coding and smartphone, so i want to combine them together to create a new application, and i think Dart is a good choice for me.
+    (Đầu tiên, điện thoại thông minh rất phổ biến, ai cũng có 1 cái trong người, và Dart là một trong những ngôn ngữ lập trình có thể được sử dụng để phát triển ứng dụng điện thoại thông minh. Thứ hai, tôi thích lập trình và điện thoại thông minh, vì vậy tôi muốn kết hợp chúng để tạo ra một ứng dụng mới, và tôi nghĩ Dart là một lựa chọn tốt cho tôi.)
+
+Question 3: What are your favorite aspects of dart programming? (Những điểm tuyệt vời nhất của lập trình Dart là gì?)
+    Basicly, Dart reminds me of Java, PHP and C++, but easy to learn and use (PHP drive my nuts cause PHP is so annoying about a function and how to use it, C++, one of my favorite programming language, my secondly programming, is so many rules and don't have a garbage collection so if you have a wooden pc or laptop, and you give some variable some memory and not get back, it will crash and the worse is defragment
+    memory and like old, grumpy guy, so strict and mean and about Java, i don't like the packet and anything is OOP, if i want plus 2 numbers, i code a class, so tired about it, i just Ctrl+C Ctrl+V ). Dart is object-oriented but more flex and simple, a strong and modern programming language that is easy to learn and use. Dart is also a good choice for web development, and it is a good choice for me.
+    (Thì, Dart gợi nhớ về Java, PHP, C++ nhưng dễ chơi và dễ dùng hơi nhiều
+
+    
