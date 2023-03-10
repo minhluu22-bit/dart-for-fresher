@@ -14,4 +14,26 @@ Question 3: What are your favorite aspects of dart programming? (Những điểm
     (Thì, Dart gợi nhớ về Java, PHP, C++ nhưng dễ chơi và dễ dùng hơi nhiều (PHP làm tôi phát điên vì 1 mớ hàm của nó, cực kì dễ gây bug nếu dùng không đúng parameter, C++, ngôn ngữ lập trình thứ 2 thân yêu của tôi, nó giống như 1 ông già khó tính, quá nhiều luật, khá cứng nhắc cho 1 ngôn ngữ lập trình bậc cao, và không có cái gọi là garbage collection- 1 thứ giúp thu hồi bộ nhớ sau khi thực hiện 1 chương trình, ông nào tạo 1 bộ nhớ động cho 1 biến nào đó và không thu hồi cộng 1 con máy cùi bắp = máy ông sẽ crash, và ông
     còn dùng win 9x gì đó, thì kèo cao là sẽ có công chuyện với ổ cứng của bạn. Java á, 1 mớ class và packet, chịu luôn khi bạn chỉ cần cộng 2 số nguyên, viết nguyên cái class, namespace thì phải cùng tên class, tôi thấy nó rất là mệt mỏi, tôi chỉ muốn Ctrl+C Ctrl+V). Dart là một ngôn ngữ có hướng đối tượng nhưng linh hoạt hơn và đơn giản hơn, một ngôn ngữ lập trình mạnh mẽ và hiện đại dễ học và dễ sử dụng. Dart cũng là một lựa chọn tốt cho phát triển web, và nó là một lựa chọn tốt cho tôi.)
 
-Question 4: 
+Question 4: What do you think sets dart programming apart from other languages (Bạn nghĩ phần nào của dart khác với phần còn lại)
+    I think null-safety, and extension is make Dart unique. Null-safety is a feature that makes Dart a safer language. Extension is a feature that allows you to add methods to existing classes without having to modify the original class. Extension is a great way to add functionality to existing classes without having to modify the original class.
+    (Tôi nghĩ tính năng null-safety và extension làm cho Dart độc đáo. Null-safety là một tính năng giúp Dart trở nên an toàn hơn. Extension là một tính năng cho phép bạn thêm các phương thức vào các lớp hiện có mà không cần sửa đổi lớp ban đầu. Extension là một cách tuyệt vời để thêm tính năng vào các lớp hiện có mà không cần sửa đổi lớp ban đầu.)
+
+Question 5: What is your favorite dart programming feature? (Bạn thích nhất phần nào của Dart?)
+    I think is OOP. OOP in Dart is not to difficult to learn and use, and it is very useful for me.
+    (Tôi nghĩ là OOP. OOP trong Dart không khó để học và sử dụng, và nó rất hữu ích cho tôi.)
+
+Question 6: What do you think is the most challenging part of dart programming? (Bạn nghĩ phần khó nhất của Dart là gì?)
+    I don't know. Cause i learn many programming language, and i think Dart is not difficult to learn and use.
+    (Chịu luôn. Dart dễ chơi dễ xài mà. Ít nhất dễ hơn với Java nha, nên yên tâm)
+
+Question 7: What do you think would be the biggest challenge facing dart programmers in the future? (Bạn nghĩ điểm khó khăn của Dart trong tương lai là gì?)
+    i think that Dart is a new programming language, so it will be a challenge for Dart programmers in the future, especially for beginners. If you want learn Dart, you should have knowledge about Python or Java, or C++.
+    (Mấy ông chưa biết lập trình hay tệ hơn là trình độ Yan-dev, thì xin lỗi các ông, các ông nên học ngay 1 khoá C++ hay Java, với Python rồi quay lại đây, Dart tuy là 1 ngôn ngữ dễ chơi, dễ học nhưng các coder nên có kĩ năng cơ bản đã, không thì toang lắm)
+
+Question 8: What do you think is the most important thing for dart programmers to remember? (Phần nào quan trọng nhất trong lập trình Dart?)
+    Well, i think is OOP. Every project have some object you want to deal it(not smash it, solve it), so you should know how to use OOP in Dart.
+    (Ừ, tôi nghĩ là OOP. Mỗi dự án đều có một số đối tượng bạn muốn xử lý nó (không phải đập nó, tìm ra giải pháp cho nó), vì vậy bạn nên biết cách sử dụng OOP trong Dart.)
+
+Question 9: What do you think is the best thing about dart programming? (Bạn nghĩ phần tốt nhất của Dart là gì?)
+    Dart is simple, modern, and easy to learn and use. Dart is also a good choice for web development, and it is a best thing i think about Dart.
+    (Dart đơn giản, hiện đại và dễ học và sử dụng. Dart cũng là một lựa chọn tốt cho phát triển web, và đó là điều tốt nhất mà tôi nghĩ về Dart.)
